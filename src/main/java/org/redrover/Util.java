@@ -9,10 +9,11 @@ public class Util {
         int sum = first + second;
         return sum;
 }
-    public static void printSum(int first, int second) {
-        int s = sum(first, (Integer) second);
+    public static int printSum(int first, int second) {
+        int s = sum(first, second);
 
-        System.out.println(hi + "sum= " + s);
+        System.out.println(s);
+        return s;
     }
 
     public static String abb(String text, int leght) {
